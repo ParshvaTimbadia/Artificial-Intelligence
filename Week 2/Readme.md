@@ -1,8 +1,10 @@
-
+#Genetic Algorithm Problem. 
+##Follow the basic working flow of genetic algorithm and implement. 
 1. Implement genetic algorithm in Python for creating a list of N numbers that equal X when s squared and summed together. 
 
 
-
+#MiniMax and Alpha Beta Application on Othello Reversi Game.
+##Rules for the same are as follows. 
 
 2.In this part, you’ll program a minimax module for the board game Othello, also known as Reversi. The main module that you’ll program will calculate the value for a given board position. But, code is also provided for you that will let you play against your AI if you like.
 
