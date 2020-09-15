@@ -1,5 +1,6 @@
-#Genetic Algorithm Problem. 
-##Follow the basic working flow of genetic algorithm and implement. 
+#Genetic Algorithm Problem.
+
+#Follow the basic working flow of genetic algorithm and implement. 
 1. Implement genetic algorithm in Python for creating a list of N numbers that equal X when s squared and summed together. 
 
 
