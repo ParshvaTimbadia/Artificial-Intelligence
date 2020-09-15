@@ -196,23 +196,9 @@ def minimax_value(board, white_turn, search_depth, alpha, beta):
         
             
     
-   
+#Note the evaluation function is already provided just convert it into the code.   
 
-#This evaluation function is defined by me
-def evaluation(board):
-    
-    '''
-   Your evaluation function, when you bottom out, should just be the difference 
-    in piece count between white and black if it's not the end of the game, or 
-    WIN_VAL, -WIN_VAL, or 0 if it is the end of the game. You should be able to 
-    effectively use a depth of 5 or so without waiting too long.
-    
-    '''
-    white_count = np.count_nonzero(board == WHITE) #White is MAX
-    black_count = np.count_nonzero(board == BLACK) #BLACK is MIN 
-    Coin_parity_vlaue= 100*(white_count - black_count)/(white_count + black_count)
-    
-    return Coin_parity_vlaue
+
 
 # Printing a board (and return null), for interactive mode
 def print_board(board):
