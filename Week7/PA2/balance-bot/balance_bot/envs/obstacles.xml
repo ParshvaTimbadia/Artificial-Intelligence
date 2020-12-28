@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<robot name="balance">
+
+  <material name="green">
+    <color rgba="1 0 0 0.9"/>
+  </material>
+
+  <material name="black">
+    <color rgba="0.2 0.2 0.2 1"/>
+  </material>
+
+  <link name="torso">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0.0 0.3"/>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4 0.1 0.8"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0.0 0.3"/>
+    </collision>
+    <inertial>
+      <mass value="0.3"/>
+      <inertia ixx="0.001" ixy="0.0" ixz="0.0" iyy="0.001" iyz="0.0" izz="0.001"/>
+      <origin rpy="0 0 0" xyz="0 0.0 0.3"/>
+    </inertial>
+  </link>
