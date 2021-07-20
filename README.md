@@ -1,2 +1,3 @@
 # Artificial-Intelligence
-I will be posting here various AI related algorithms and more. 
+Created as part of course CS5100-Foundations of Artificial Intelligence at Northeastern University
+ 
